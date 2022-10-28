@@ -9,16 +9,27 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
             height: 100vh;
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            
+            /*Shorthand - background
+                color > image > position > repeat > [size] > attachment
+
+                background-size nao funciona, mas está no manual que ele existe dentro da shorthand
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             margin-top: 20px;
