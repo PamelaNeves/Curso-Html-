@@ -48,6 +48,7 @@ menu > ul > li > a {
     text-align: center;
     background-color: rgb(89, 89, 89);
     color: white;
+    font-weight: bold;
     border-top: 2px solid gray;
 }
 
